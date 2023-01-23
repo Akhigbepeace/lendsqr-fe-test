@@ -36,7 +36,7 @@ a {
 
       .showcase {
         display: inline;
-        margin-top: 139px;
+        margin-top: 100px;
         width: 600px;
         height: 337.57px;
       }
@@ -84,6 +84,11 @@ a {
       .inputs {
         display: grid;
         grid-gap: 24px;
+
+        .password-button {
+          display: flex;
+          flex-direction: row;
+        }
 
         input {
           width: 447px;
@@ -151,6 +156,7 @@ a {
         text-transform: uppercase;
         color: #FFFFFF;
         border: none;
+        cursor: pointer;
       }
     }
   }
