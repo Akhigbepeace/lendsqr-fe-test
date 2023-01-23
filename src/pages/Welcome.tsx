@@ -3,10 +3,15 @@ import logo from "../assets/images/logo-title.svg";
 import showcase from "../assets/images/showcase.svg";
 
 const Welcome = () => {
+  // const logo = "../assets/images/logo-title.svg";
+  // const showcase = "../assets/images/showcase.svg";
+
   const [showPassword, setShowPassword] = useState(false);
+
   const toggleShow = () => {
     setShowPassword(!showPassword);
   };
+
   return (
     <div className="welcome">
       <div className="logo-showcase">
@@ -22,7 +27,7 @@ const Welcome = () => {
           <p>Enter details to login.</p>
         </div>
 
-        <form>
+        <form action="/dashboard">
           <div className="inputs">
             <input
               type="email"
@@ -32,9 +37,9 @@ const Welcome = () => {
               required
             />
 
-            <div>
+            <div className="password-button">
               <input
-                type={showPassword ? "password" : "text"}
+                type={showPassword ? "text" : "password"}
                 name="password"
                 id="password"
                 placeholder="Password"
@@ -46,7 +51,7 @@ const Welcome = () => {
                 type="button"
                 className="toggle-show"
               >
-                {showPassword ? "Show" : "Hide"}
+                {showPassword ? "Hide" : "Show"}
               </button>
             </div>
           </div>

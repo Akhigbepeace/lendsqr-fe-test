@@ -1,0 +1,67 @@
+@media only screen and (min-width: 300px) {
+  .welcome {
+    display: block;
+  }
+  .welcome .logo-showcase {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    margin-top: 70px;
+  }
+  .welcome .logo-showcase .logo {
+    width: 173.76px;
+  }
+  .welcome .logo-showcase .showcase {
+    width: 300px;
+    margin-top: 0px;
+  }
+  .welcome .form-details {
+    min-height: 100vh !important;
+    align-items: center;
+    padding-left: 0;
+    background-color: none;
+  }
+  .welcome .form-details input {
+    width: 247px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .welcome {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .welcome {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .welcome {
+    display: flex;
+  }
+  .welcome .logo-showcase {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .welcome .logo-showcase .logo {
+    width: 173.76px;
+    height: 36px;
+  }
+  .welcome .logo-showcase .showcase {
+    margin-top: 0px;
+    width: 600px;
+    height: 337.57px;
+  }
+  .welcome .logo-showcase {
+    align-items: flex-end;
+  }
+  .welcome .form-details {
+    align-items: flex-start;
+    padding-left: 100px;
+    min-height: 100vh;
+  }
+  .welcome .form-details input {
+    width: 447px;
+  }
+}/*# sourceMappingURL=Variable.css.map */
